@@ -40,10 +40,14 @@ void PrintTokens(void* string) {
 }
 
 int main() {
+<<<<<<< HEAD
 	const char* expr =
 		"add(pow(2, 5), subtract(100, divide(50, 2))) + "
 		"multiply(add(1, 2), subtract(10, 3)) + "
 		"sqrt(add(500, 250)) +((((((2 + 0) + 3) * ((4 * 1) + (0 + 5))) + 2) / (((6 + 6) * 1) * (1 + 0 + 1))) + ((100 / 5) - ((3 + 2) + 0))) + (((7 * 8) + (9 - 4 + 0)) * (((2 + 3 + 0) * 1) + 2)) - (((10 + 0 + 5) * 1) * ((6 - 0 - 1))) + ((((50 + 50) / 2) * (((3 + 2) - 0) - (1 + 1)))) + 0 + 0 * 1234 ";
+=======
+	const char* expr = "Sqrt(102)";
+>>>>>>> ....Add project files.
 
 
 	clock_t start = clock();
