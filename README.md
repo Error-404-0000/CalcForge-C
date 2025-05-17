@@ -1,5 +1,5 @@
 
-````markdown
+
 # Evtor-C — Math Expression Evaluator in C
 
 Evtor-C is a lightweight, token-based math expression evaluator written in pure C. It parses infix expressions, constructs a basic token tree,
@@ -25,7 +25,7 @@ and evaluates results recursively— all without external libraries or runtime d
 2. Compile with a C compiler. For example:
    ```sh
    gcc -std=c11 -O2 List.c Tokenizer.c Strings.c Parser.c Evaluator.c Main.c -o evtor
-````
+
 
 3. Run:
 
