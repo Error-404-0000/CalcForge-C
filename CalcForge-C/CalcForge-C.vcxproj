@@ -136,7 +136,7 @@
     <ClCompile Include="Main.c" />
     <ClCompile Include="List.c" />
     <ClCompile Include="Parser.c" />
-    <ClCompile Include="String.c" />
+    <ClCompile Include="Strings.c" />
     <ClCompile Include="Tokenizer.c" />
   </ItemGroup>
   <ItemGroup>

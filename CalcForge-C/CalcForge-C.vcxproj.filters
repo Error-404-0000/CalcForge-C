@@ -27,7 +27,7 @@
     <ClCompile Include="Tokenizer.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="String.c">
+    <ClCompile Include="Strings.c">
       <Filter>Source Files\Arrays</Filter>
     </ClCompile>
     <ClCompile Include="Parser.c">

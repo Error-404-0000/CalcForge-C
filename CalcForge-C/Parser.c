@@ -5,8 +5,8 @@
 #include <string.h>
 #pragma warning(disable : 6011)
 #pragma once
-const TokenType GetTokenType(const char Value);
-const TokenType GetTokenType(const char Value);
+ TokenType GetTokenType(const char Value);
+ TokenType GetTokenType(const char Value);
 int FindOpenedParenthesisEnd(char** strings, int count);
 void memcopy(void* dest, const void* src, size_t n);
 ArrayInfo* Parse(const ArrayInfo* Rawtokens) {
@@ -133,7 +133,7 @@ int FindOpenedParenthesisEnd(char** strings,unsigned int count) {
     }
     return -1;
 }
-const TokenType GetTokenType(const char Value) {
+ TokenType GetTokenType(const char Value) {
      switch (Value) {
      case '+':
      case '-':
@@ -189,7 +189,7 @@ TokenOperation GetTokenOperationFromString(const char* str) {
     return TokenOperation_None;
 }
 
-const char* TokenTypeToString(TokenType type) {
+ char* TokenTypeToString(TokenType type) {
     static const char* names[] = {
         "TokenType_None",
         "TokenType_Function",
@@ -238,7 +238,7 @@ const char* TokenOperationToString(TokenOperation op) {
     };
     return (op >= 0 && op <= TokenOperation_Divide) ? names[op] : "Unknown";
 }
-const char* TokenTreeToString(TokenTree tree) {
+ char* TokenTreeToString(TokenTree tree) {
     static const char* names[] = {
         "TokenTree_Single",
         "TokenTree_Group"

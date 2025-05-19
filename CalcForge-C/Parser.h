@@ -67,7 +67,7 @@ typedef struct {
     char* raw_token;
 }FuncationToken;
 
-const char* TokenTypeToString(TokenType type);
-const char* TokenTreeToString(TokenTree tree);
+ char* TokenTypeToString(TokenType type);
+ char* TokenTreeToString(TokenTree tree);
 void memcopy(void* dest, const void* src,int size);
 const char* TokenOperationToString(TokenOperation op);
